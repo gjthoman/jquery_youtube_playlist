@@ -11,6 +11,9 @@
   width: 69%;
   height: 100%;
   background: black;
+  position:absolute;
+  top:0;
+  left:0;
 }
 .videoInnerWrapper .playlist-wrapper ul {
   list-style: none;
@@ -81,7 +84,8 @@
   display: inline-block;
   padding: 0;
   margin: 0;
-  float: right;
+  right:0;
+  top:0;
   height: 100%;
   overflow-y: scroll;
   overflow-x: none;
