@@ -58,8 +58,6 @@
   left:50%;
   margin-left:-7.5px;
   margin-top:-10px;
-  -webkit-box-shadow: 0 0 5px 0 #000;
-  box-shadow: 0 0 5px 0 #000;
 }
 .videoInnerWrapper .playlist-wrapper ul li .image-wrapper:before {
   content: " ";
@@ -74,8 +72,7 @@
   left: 50%;
   margin-top: -19px;
   margin-left: -21px;
-  -webkit-box-shadow: 0 0 5px 0 #000;
-  box-shadow: 0 0 5px 0 #000;
+  background-color: rgba(0,0,0,.25);
 }
 .videoInnerWrapper .playlist-wrapper {
   position: absolute;
